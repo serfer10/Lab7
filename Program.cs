@@ -26,14 +26,6 @@ namespace Lr7
                 RationalNumber.Frac(i);
             }
 
-            Array.Sort(rationalNumbers);
-            foreach (RationalNumber i in rationalNumbers)
-            {
-                RationalNumber.Type(i, "dec");
-            }
-
-            Console.WriteLine();
-
             Console.WriteLine("First>Second:");
             Console.WriteLine( num1 > num2);
 
